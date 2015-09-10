@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VideoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="VideoModelStoreContainer">
+    <EntitySet Name="User" EntityType="VideoModel.Store.User" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Video" EntityType="VideoModel.Store.Video" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IsRenting" Type="bit" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Video">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Director" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Genre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Brief" Type="nvarchar(max)" />
+    <Property Name="Year" Type="int" Nullable="false" />
+    <Property Name="Thumb" Type="nvarchar(max)" />
+    <Property Name="RenterID" Type="int" />
+  </EntityType>
+  <Function Name="SearchVideos" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Director" Type="nvarchar" Mode="In" />
+    <Parameter Name="Genre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Year" Type="int" Mode="In" />
+  </Function>
+</Schema>

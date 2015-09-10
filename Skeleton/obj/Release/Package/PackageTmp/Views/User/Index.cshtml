@@ -1,0 +1,32 @@
+﻿@model Skeleton.BLL.Models.RentVideoModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="form-group col-lg-8 col-lg-offset-2" style="text-align: center">
+        <h1>Hey @Model.UserName! Stay tuned for our new Available Videos</h1>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-2 col-lg-offset-10">
+        <input type="hidden" id="userId" value="@Model.UserID" />
+        <input type="hidden" id="userVideoID" value="@Model.VideoID" />
+        <input type="hidden" id="userCanRent" value="@(Model.VideoID == 0 ? Html.Raw("1") : Html.Raw("0"))" />
+        <button type="button" class="btn btn-warning" id="returnBook" @(Model.VideoID != 0? Html.Raw("") : Html.Raw("disabled='disabled'"))>Return book</button>
+    </div>
+</div>
+
+@Html.Partial("_userVideosTable")
+
+@section Scripts{
+    <script src="~/Scripts/user.js"></script>
+    <script>
+        $(function () {
+            user.init();
+        });
+    </script>
+
+}

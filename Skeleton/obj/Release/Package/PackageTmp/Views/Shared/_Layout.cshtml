@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Libs/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Libs/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/CSS/datatables.min.css" rel="stylesheet" />
+    <link href="~/CSS/datatables.bootstrap.css" rel="stylesheet" />
+    <link href="~/Libs/bootstrap-3.3.5-dist/css/bootstrap-switch.css" rel="stylesheet" />
+    <link href="~/CSS/dropzone.css" rel="stylesheet" />
+    <link href="~/CSS/site.css" rel="stylesheet" />
+    <title>@ViewBag.Title</title>
+    @*@Styles.Render("~/Content/css")*@
+    @*  @Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    @Html.Partial("_Header")
+    @RenderBody()
+
+    <div class="modal" id="ajax" tabindex="-1" role="dialog" data-focus-on="input:first">
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @*<script src="~/Libs/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>*@
+    <script src="~/Libs/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    @*<script src="~/Scripts/datatables.min.js"></script>*@
+    <script src="~/Scripts/datatables.js"></script>
+    <script src="~/Scripts/datatables.bootstrap.js"></script>
+    <script src="~/Scripts/datatables.columnsfilter.js"></script>
+    <script src="~/Scripts/ajaxmodal.js"></script>
+    <script src="~/Scripts/spin.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Libs/bootstrap-3.3.5-dist/js/bootstrap-switch.js"></script>
+    <script src="~/Scripts/dropzone.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

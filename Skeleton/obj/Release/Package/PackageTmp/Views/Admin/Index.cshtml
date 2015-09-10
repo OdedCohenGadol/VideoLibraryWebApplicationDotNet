@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="form-group col-lg-8 col-lg-offset-2" style="text-align: center">
+        <h1>Manage Video Library</h1>
+    </div>
+</div>
+
+@Html.Partial("_adminVideosTable")
+
+@section Scripts{
+    <script src="~/Scripts/admin.js"></script>
+    <script>
+        $(function () {
+            admin.init();
+        });
+    </script>
+
+}

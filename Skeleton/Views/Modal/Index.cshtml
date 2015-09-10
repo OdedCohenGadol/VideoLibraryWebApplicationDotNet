@@ -1,0 +1,21 @@
+﻿@model Skeleton.Models.ModalModel
+@{
+    Layout = null;
+  }
+
+
+
+
+<div class="modal-dialog modal-scrollable modal-lg ">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title biggerText" id="add-modal-title">@(Model.Title) @(Model.Title2 != null ? Html.Raw("<h5 class='smallerText'> " + Model.Title2 + " </h5>") : Html.Raw("") )</h4>
+        </div>
+        <div class="modal-body">
+            <!-- BEGIN VALIDATION STATES-->
+            @Html.Action(Model.ActionName, Model.ControllerName)
+            <!-- END VALIDATION STATES-->
+        </div>
+    </div>
+</div>

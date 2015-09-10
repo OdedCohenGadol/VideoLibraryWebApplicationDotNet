@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCollection", "Skeleton\VideoCollection.csproj", "{03346B85-A7A3-4300-9969-449FC6865B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCollection.BLL", "Skeleton.BLL\VideoCollection.BLL.csproj", "{21542D54-6A4E-4EFA-81D6-0EA5D4785152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCollection.DAL", "Skeleton.DAL\VideoCollection.DAL.csproj", "{15775241-3FBD-4AF2-9DE1-A4C78E053AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{31DB5A21-A7A9-4C2C-B9BE-1858D4067B96}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{91D440D1-4962-4687-B2EE-F2B69DEC23E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03346B85-A7A3-4300-9969-449FC6865B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03346B85-A7A3-4300-9969-449FC6865B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03346B85-A7A3-4300-9969-449FC6865B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03346B85-A7A3-4300-9969-449FC6865B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21542D54-6A4E-4EFA-81D6-0EA5D4785152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21542D54-6A4E-4EFA-81D6-0EA5D4785152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21542D54-6A4E-4EFA-81D6-0EA5D4785152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21542D54-6A4E-4EFA-81D6-0EA5D4785152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15775241-3FBD-4AF2-9DE1-A4C78E053AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15775241-3FBD-4AF2-9DE1-A4C78E053AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15775241-3FBD-4AF2-9DE1-A4C78E053AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15775241-3FBD-4AF2-9DE1-A4C78E053AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D440D1-4962-4687-B2EE-F2B69DEC23E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D440D1-4962-4687-B2EE-F2B69DEC23E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D440D1-4962-4687-B2EE-F2B69DEC23E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D440D1-4962-4687-B2EE-F2B69DEC23E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

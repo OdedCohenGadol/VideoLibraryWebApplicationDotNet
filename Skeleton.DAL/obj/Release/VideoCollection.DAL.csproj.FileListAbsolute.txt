@@ -1,0 +1,12 @@
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\Skeleton.DAL.dll.config
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\Skeleton.DAL.dll
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\Skeleton.DAL.pdb
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\EntityFramework.dll
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\Generic.dll
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\Generic.pdb
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\EntityFramework.xml
+D:\Projects\Skeleton\Skeleton.DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\Skeleton\Skeleton.DAL\obj\Release\VideoCollection.DAL.csprojResolveAssemblyReference.cache
+D:\Projects\Skeleton\Skeleton.DAL\obj\Release\Skeleton.DAL.dll
+D:\Projects\Skeleton\Skeleton.DAL\obj\Release\Skeleton.DAL.pdb

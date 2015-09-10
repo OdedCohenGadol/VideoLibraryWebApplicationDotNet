@@ -1,0 +1,46 @@
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\Generic.dll.config
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\Generic.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\Generic.pdb
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\EntityFramework.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Helpers.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Mvc.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Razor.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\EntityFramework.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Helpers.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Mvc.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.Razor.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\obj\Debug\Generic.dll
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\obj\Debug\Generic.pdb
+D:\Projects\Bataboo - 2.0\Bataboo\Generic\obj\Debug\Generic.csprojResolveAssemblyReference.cache
+D:\Projects\Skeleton\Generic\bin\Debug\Generic.dll.config
+D:\Projects\Skeleton\Generic\bin\Debug\Generic.dll
+D:\Projects\Skeleton\Generic\bin\Debug\Generic.pdb
+D:\Projects\Skeleton\Generic\bin\Debug\EntityFramework.dll
+D:\Projects\Skeleton\Generic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Skeleton\Generic\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Helpers.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Mvc.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Razor.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.dll
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Projects\Skeleton\Generic\bin\Debug\EntityFramework.xml
+D:\Projects\Skeleton\Generic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Helpers.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Mvc.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.Razor.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Projects\Skeleton\Generic\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Projects\Skeleton\Generic\obj\Debug\Generic.dll
+D:\Projects\Skeleton\Generic\obj\Debug\Generic.pdb
+D:\Projects\Skeleton\Generic\obj\Debug\Generic.csprojResolveAssemblyReference.cache
